@@ -1,0 +1,11 @@
+{
+  "name": "WebHorisont",
+  "version": "1.0.0",
+  "description": "My homepage",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "SETI108",
+  "license": "ISC"
+}

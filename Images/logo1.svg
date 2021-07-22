@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2194">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2190" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2192" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2194"
+       id="linearGradient2196"
+       x1="81.455214"
+       y1="119.82069"
+       x2="157.80847"
+       y2="119.82069"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer4">
+    <ellipse
+       style="opacity:0.994;fill:#2980b9;fill-opacity:1;stroke:none;stroke-width:7.64243;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43883;paint-order:stroke markers fill"
+       id="path1752"
+       cx="110.30202"
+       cy="160.47491"
+       rx="86.23011"
+       ry="86.226501" />
+  </g>
+  <g
+     id="layer1">
+    <ellipse
+       style="fill:#f1c40f;fill-opacity:1;stroke-width:0.263703;paint-order:stroke markers fill"
+       id="path833"
+       cx="105.08804"
+       cy="161.39583"
+       rx="77.863091"
+       ry="76.729172" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0;stroke-width:0.264999;paint-order:stroke markers fill"
+       id="rect837"
+       width="156.48215"
+       height="74.839287"
+       x="27.224937"
+       y="164.04167" />
+  </g>
+  <g
+     id="layer3">
+    <g
+       id="g1655"
+       transform="matrix(1.0566781,0,0,1.1120251,-6.6936332,-16.304276)"
+       style="fill:#ffffff;fill-opacity:0.94902">
+      <path
+         d="m 58.97851,145.44157 h 3.167545 l 9.617819,-38.51639 h 0.115176 l 9.445053,38.51639 h 3.167554 l 9.733002,-44.79117 h -2.821998 l -8.408406,39.11719 H 82.879051 L 73.261258,100.6504 h -2.649219 l -4.648001,18.46196 -5.200187,20.65523 h -0.0576 L 52.355454,100.6504 h -3.167547 z"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:40.7884px;line-height:1.25;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:89.3723;opacity:0.992;fill:#ffffff;fill-opacity:0.94902;stroke:#2980b9;stroke-width:1.13974;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94902"
+         id="path2390" />
+      <path
+         d="m 100.60351,145.54121 h 22.86527 v -2.11667 h -19.73145 v -12.69993 h 15.1468 v -2.11668 h -15.1468 v -11.82566 h 19.67341 v -2.11665 h -22.80723 z"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:40.7884px;line-height:1.25;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:89.3723;opacity:0.992;fill:#ffffff;fill-opacity:0.94902;stroke:#2980b9;stroke-width:0.98749;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94902"
+         id="path2392" />
+      <path
+         d="m 131.17597,145.53582 h 12.81056 c 8.34715,0 12.63668,-3.37947 12.63668,-8.77724 0,-5.16308 -4.17358,-7.2283 -8.86886,-7.65073 v -0.18776 c 4.40545,-0.8918 7.01394,-3.28559 7.01394,-7.0875 0,-5.11614 -3.53597,-7.79154 -12.17296,-7.79154 h -11.41936 z m 3.13018,-2.15912 v -13.14236 h 8.75292 c 6.37629,0 10.20209,1.73667 10.20209,6.43038 0,4.55289 -3.24612,6.71198 -9.44853,6.71198 z m 0,-15.2076 v -11.96896 h 8.05733 c 6.26037,0 9.10072,1.59585 9.10072,5.86715 0,4.41207 -3.88374,6.10181 -9.15869,6.10181 z"
+         style="font-style:normal;font-variant:normal;font-weight:200;font-stretch:normal;font-size:40.7884px;line-height:1.25;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Ultra-Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:89.3723;opacity:0.992;fill:#ffffff;fill-opacity:0.94902;stroke:#2980b9;stroke-width:0.996815;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94902"
+         id="path2394" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.1496px;line-height:1.25;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.999;fill:#fffff9;fill-opacity:0.94902;stroke:#2980b9;stroke-width:0.716;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94902"
+       x="74.208504"
+       y="167.87906"
+       id="text881"
+       transform="scale(0.99693114,1.0030783)"><tspan
+         id="tspan1530"
+         x="74.208504"
+         y="167.87906"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.1496px;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fffff9;fill-opacity:0.94902;stroke:#2980b9;stroke-width:0.716;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94902">Horisont</tspan></text>
+  </g>
+  <g
+     id="layer5">
+    <path
+       style="opacity:0.994;fill:#f1c40f;fill-opacity:1;stroke:none;stroke-width:13.6656;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43883;paint-order:stroke markers fill"
+       d="M 349.7985,895.18567 C 250.06386,878.33375 166.65587,813.35462 126.91671,721.54928 c -8.62766,-19.9316 -18.18786,-54.64117 -20.37523,-73.97493 l -1.36716,-12.08415 h 292.41012 c 193.6329,0 292.41014,0.66236 292.41014,1.96078 0,1.2969 -84.31373,1.96078 -249.01961,1.96078 H 191.95536 v 7.84314 7.84314 h 247.05882 c 163.39869,0 247.05883,0.66397 247.05883,1.96078 0,1.29419 -66.99347,1.96079 -197.05883,1.96079 H 291.95536 v 8.82353 8.82353 H 487.0534 c 107.30392,0 195.09804,0.56663 195.09804,1.25919 0,3.77519 -8.96784,30.43278 -14.90161,44.29612 -32.37241,75.63335 -99.75065,136.67741 -179.21604,162.3681 -40.03031,12.94155 -98.03743,17.38774 -138.23529,10.59559 z"
+       id="path1787"
+       transform="scale(0.26458333)" />
+    <path
+       style="opacity:0.994;fill:#f1c40f;fill-opacity:1;stroke:none;stroke-width:13.6656;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43883;paint-order:stroke markers fill"
+       d="M 349.7985,895.18567 C 254.65863,879.1101 174.68942,819.82265 133.07267,734.5098 c -5.26074,-10.78431 -11.89555,-26.63203 -14.74405,-35.21716 -5.28588,-15.93123 -12.64777,-50.2559 -12.64777,-58.97001 v -4.83243 h 292.15686 c 193.46406,0 292.15687,0.66236 292.15687,1.96078 0,1.2969 -84.31373,1.96078 -249.01961,1.96078 H 191.95536 v 7.84314 7.84314 h 247.05882 c 163.39869,0 247.05883,0.66397 247.05883,1.96078 0,1.29419 -66.99347,1.96079 -197.05883,1.96079 H 291.95536 v 8.82353 8.82353 H 487.0534 c 115.86673,0 195.09804,0.72448 195.09804,1.78396 0,4.04707 -11.84343,37.48062 -18.12182,51.15721 -39.31469,85.64144 -122.14851,148.59112 -216.87695,164.81591 -26.3826,4.51874 -72.96278,4.88329 -97.35417,0.76192 z"
+       id="path1789"
+       transform="scale(0.26458333)" />
+    <path
+       style="opacity:0.994;fill:#f1c40f;fill-opacity:1;stroke:none;stroke-width:13.6656;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43883;paint-order:stroke markers fill"
+       d="M 349.7985,895.32894 C 227.33086,873.88618 132.33027,782.62957 109.4152,664.41919 c -2.05389,-10.59527 -3.73435,-21.43872 -3.73435,-24.09656 v -4.83243 h 292.15686 c 193.46406,0 292.15687,0.66236 292.15687,1.96078 0,1.2969 -84.31373,1.96078 -249.01961,1.96078 H 191.95536 v 7.84314 7.84314 h 247.05882 c 163.39869,0 247.05883,0.66397 247.05883,1.96078 0,1.29419 -66.99347,1.96079 -197.05883,1.96079 H 291.95536 v 8.82353 8.82353 H 487.2092 682.46303 l -1.34604,6.37255 c -1.88426,8.92066 -14.19012,41.75203 -19.88573,53.05408 -40.02663,79.42645 -112.79053,135.70339 -202.43413,156.56621 -22.35814,5.20343 -85.67026,6.75398 -108.99863,2.66943 z"
+       id="path1791"
+       transform="scale(0.26458333)" />
+    <path
+       style="opacity:0.994;fill:#f1c40f;fill-opacity:1;stroke:none;stroke-width:13.6656;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43883;paint-order:stroke markers fill"
+       d="M 353.72007,896.18182 C 258.70437,881.51141 175.88381,821.26575 134.16281,736.47059 118.52706,704.69197 105.68085,661.83721 105.68085,641.45521 v -5.96501 h 292.15686 c 193.46406,0 292.15687,0.66236 292.15687,1.96078 0,1.2969 -84.31373,1.96078 -249.01961,1.96078 H 191.95536 v 7.84314 7.84314 h 247.05882 c 163.39869,0 247.05883,0.66397 247.05883,1.96078 0,1.29419 -66.99347,1.96079 -197.05883,1.96079 H 291.95536 v 8.82353 8.82353 H 487.2092 682.46303 l -1.33918,6.37255 c -0.73655,3.5049 -4.74429,15.48731 -8.90612,26.62758 -33.97982,90.95661 -112.46227,159.12318 -209.64657,182.09024 -17.40635,4.11357 -26.56825,4.97861 -58.85109,5.55665 -21.02942,0.37653 -43.52942,-0.13275 -50,-1.13187 z"
+       id="path1793"
+       transform="scale(0.26458333)" />
+    <path
+       style="opacity:0.994;fill:#f1c40f;fill-opacity:1;stroke:none;stroke-width:13.6656;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.43883;paint-order:stroke markers fill"
+       d="M 353.76134,896.17045 C 243.95788,879.05059 152.10936,802.17904 118.36121,699.15505 c -6.68026,-20.39301 -12.68036,-47.83707 -12.68036,-57.9991 v -5.66575 h 292.15686 c 193.46406,0 292.15687,0.66236 292.15687,1.96078 0,1.2969 -84.31373,1.96078 -249.01961,1.96078 H 191.95536 v 7.84314 7.84314 h 247.05882 c 163.39869,0 247.05883,0.66397 247.05883,1.96078 0,1.29419 -66.99347,1.96079 -197.05883,1.96079 H 291.95536 v 8.82353 8.82353 H 487.2092 682.46303 l -1.34604,6.37255 c -2.02357,9.58022 -14.35214,42.0559 -21.02822,55.39215 -38.79831,77.50413 -115.06759,135.59218 -203.42753,154.9341 -17.38,3.80445 -84.71657,5.64 -102.8999,2.80498 z"
+       id="path1795"
+       transform="scale(0.26458333)" />
+  </g>
+  <g
+     id="layer2">
+    <rect
+       style="fill:#2980b9;fill-opacity:1;stroke-width:0.0778028;paint-order:stroke markers fill"
+       id="rect860"
+       width="157.01132"
+       height="3.392101"
+       x="27.224937"
+       y="171.44991" />
+    <rect
+       style="fill:#2980b9;fill-opacity:1;stroke-width:0.0709452;paint-order:stroke markers fill"
+       id="rect1537"
+       width="130.55299"
+       height="3.392101"
+       x="53.68327"
+       y="180.44562" />
+    <rect
+       style="fill:#2980b9;fill-opacity:1;stroke-width:0.064678;paint-order:stroke markers fill"
+       id="rect1539"
+       width="108.50601"
+       height="3.392101"
+       x="75.730255"
+       y="188.91217" />
+  </g>
+</svg>
