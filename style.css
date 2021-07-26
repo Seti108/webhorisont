@@ -240,65 +240,13 @@ button {
   }
 }
 
-.btn-meeting {
-  /* background-color: var(--dark-yellow); */
-  background: url(/Images/orange-denim.png);
-  padding: 0.8rem 1.3rem;
-  color: var(--dark);
+.btn-paket {
+  background: var(--contrast);
+  padding: 1rem 2rem;
+  color: black;
   border-radius: 1rem;
-  font: 500 1.2rem 'Quicksand', sans-serif;
-  margin: 0.5rem 0rem;
-  letter-spacing: 0.1em;
-}
-
-.btn-meeting-embed {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--dark-yellow);
-  padding: 0.8rem 1.3rem;
-  color: var(--dark);
-  border-top-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-  font: 500 1.2rem 'Quicksand', sans-serif;
-  letter-spacing: 0.1em;
-  box-shadow: 0 0 0;
-}
-
-.btn-contact {
-  background-color: transparent;
-  padding: 0.8rem 1.3rem;
-  color: var(--dark);
-  border-radius: 1rem;
-  font: 500 1.2rem 'Quicksand', sans-serif;
-  margin: 0.5rem 0rem;
-  border: 0.15rem solid var(--dark);
-  letter-spacing: 0.1em;
-}
-
-.btn-projects {
-  background-color: transparent;
-  padding: 0.8rem 1.3rem;
-  color: var(--dark);
-  border-radius: 1rem;
-  font: 500 1.2rem 'Quicksand', sans-serif;
-  margin: 0.5rem 0rem;
-  letter-spacing: 0.1em;
-  border: 0.1rem solid var(--dark);
-}
-
-.btn-projects-embed {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  background-color: var(--dark-blue);
-  padding: 0.8rem 1rem;
-  color: var(--light);
-  border-top-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  font: 500 1rem 'Quicksand', sans-serif;
-  letter-spacing: 0.1em;
-  box-shadow: 0 0 0;
+  font-size: 1rem;
+  margin: 1rem 0rem;
 }
 
 .chat-bubble {
@@ -381,10 +329,6 @@ header:after {
   color: var(--dark);
   padding: 1rem;
   padding-right: 5rem;
-}
-
-.index-solution span {
-  border-bottom: 0.2rem solid var(--contrast);
 }
 
 .skillset-flex {
@@ -713,4 +657,154 @@ footer {
   color: var(--light);
   text-align: center;
   font-size: 0.6rem;
+}
+
+/* TJÄNSTER */
+
+.tjanster-solution {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 1rem;
+  background: var(--light);
+  background-image: url(/Images/imageonline-co-whitebackgroundremoved.png);
+  /* border-radius: 1rem; */
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-size: 10rem auto;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  /* text-shadow: 6px 1px 5px black; */
+  box-shadow: 4px 4px 5px rgb(7, 26, 39);
+}
+
+.tjanster-solution h2 {
+  color: var(--dark);
+  padding: 2rem 1rem;
+  padding-right: 5rem;
+}
+
+.tjanster-choices-flex {
+  display: flex;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.tjanster-choices-flex i {
+  font-size: 3.5rem;
+  padding: 1rem;
+  color: var(--contrast);
+}
+
+.choice-item {
+  padding: 1rem;
+  color: var(--light);
+}
+
+.white-line {
+  border-left: 1px solid white;
+}
+
+/* NY HEMSIDA */
+
+.new-website {
+  position: relative;
+  background: url(/Images/startup.jpg);
+  background-size: cover;
+  z-index: 1;
+  text-align: center;
+}
+
+.new-website:after {
+  content: '';
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.new-website-div {
+  background: var(--light);
+  border-radius: 1rem;
+  padding: 1rem 0rem;
+  text-align: left;
+}
+
+.new-website-div i {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.new-website li {
+  display: flex;
+  /* align-items: center; */
+}
+
+.new-website h3 {
+  color: var(--light);
+}
+.new-website h4 {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+
+/* BEFINTLIG HEMSIDA */
+
+.existing-website {
+  position: relative;
+  background: url(/Images/broken.jpg);
+  background-size: cover;
+  z-index: 1;
+  text-align: center;
+}
+
+.existing-website:after {
+  content: '';
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.existing-website h2 {
+  padding: 1rem;
+}
+
+.existing-website-div {
+  background: var(--light);
+  border-radius: 1rem;
+  padding: 1rem 0rem;
+  text-align: left;
+}
+
+.existing-website-div i {
+  font-size: 2rem;
+  /* margin-right: 1rem; */
+  width: 3rem;
+  text-align: center;
+}
+
+.existing-website li {
+  display: flex;
+  gap: 1rem;
+}
+
+.existing-website h3 {
+  color: var(--light);
+}
+.existing-website h4 {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+
+.existing-website-services {
+  background: var(--light);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding: 1rem 0rem;
+}
+
+.existing-website-services ul {
+  text-align: left;
 }
