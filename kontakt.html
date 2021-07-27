@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="”SE”">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content="Write description here" />
+    <!-- LINKS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://kit.fontawesome.com/272446ac1b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="mobile-menu">
+      <ul>
+        <i class="fas fa-times" id="icon-close-menu"></i>
+        <li><a href="">Tjänster</a></li>
+        <li><a href="">Om mig</a></li>
+        <li><a href="">Priser</a></li>
+        <li><a href="">Blogg</a></li>
+        <li><a href="">Kontakt</a></li>
+      </ul>
+    </div>
+    <header>
+      <nav>
+        <a href="/index.html"><div class="logo"></div></div></a>
+        <div class="mobile-bars">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+      <h1>
+        Kontakta mig
+      </h1>
+      <div class="tjanster-solution no-background">
+        <form action="/contact.php" method="POST" class="contact-form">
+            <label for="name">Namn:*</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ditt namn"
+            required
+          /><br />
+          <label for="email">Email:*</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <br />
+          <label for="info">Ditt meddelande:*</label><br />
+          <textarea
+            rows="5"
+            id="info"
+            name="info"
+            placeholder="Skriv ditt meddelande här"
+            required
+          ></textarea
+          ><br />
+          <label for="gdpr" id="gdpr-label"
+            >Jag lagrar dina uppgifter enligt GDPR, säljer aldrig vidare*
+          </label>
+          <input type="checkbox" id="gdpr" name="gdpr" required/><br />
+          <input type="submit" value="KONTAKTA MIG" id="submit" />
+        </form>
+      </div>
+    </main>
+    <footer class="footer-transparent">
+      <div class="footer-flex">
+        <div class="footer-social">
+          <i class="fab fa-twitter"></i>
+          <p>Twitter</p>
+        </div>
+        <div class="footer-social">
+          <i class="fab fa-facebook-f"></i>
+          <p>Facebook</p>
+        </div>
+        <div class="footer-social">
+          <i class="far fa-comments"></i>
+          <p>Chatta</p>
+        </div>
+      </div>
+      <div class="copyright"><span>Copyright © WebHorisont 2021</span></div>
+    </footer>
+  </body>
+</html>
