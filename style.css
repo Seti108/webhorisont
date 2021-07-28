@@ -917,7 +917,7 @@ textarea {
 
 .bundles-div {
   padding: 1rem;
-  background: white;
+  background: var(--light);
   border-radius: 1rem;
 }
 
@@ -950,4 +950,8 @@ textarea {
 
 .bundle-price span {
   font-size: 1rem;
+}
+
+#bill-terms {
+  text-align: center;
 }
