@@ -888,3 +888,66 @@ textarea {
 .footer-transparent {
   background: transparent;
 }
+
+/* PRISER OCH PAKET */
+
+.header-bundle-flex {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.header-bundle-div {
+  color: var(--light);
+  font-size: 1.5rem;
+  width: 30%;
+  text-align: center;
+}
+
+.header-bundle-div i {
+  font-size: 2rem;
+  color: var(--contrast);
+}
+
+.bundles {
+  background: var(--dark-blue);
+}
+
+.bundles-div {
+  padding: 1rem;
+  background: white;
+  border-radius: 1rem;
+}
+
+.bundles-div ul {
+  padding: 0;
+}
+
+.bundles-div li {
+  font-weight: bold;
+}
+
+.bundles-div-header {
+  margin-top: 2rem;
+}
+
+/* .bas {
+  border: 1px solid var(--light-blue);
+} */
+
+.bas i {
+  color: var(--light-blue);
+  font-size: 1.5rem;
+}
+
+.bundle-price {
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.bundle-price span {
+  font-size: 1rem;
+}
