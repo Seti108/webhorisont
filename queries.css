@@ -1,35 +1,145 @@
-/* @media screen and (max-height: 600px) {
-  h1 {
-    font-size: 2rem;
+@media screen and (min-width: 500px) {
+}
+
+@media screen and (min-width: 500px) {
+  html {
+    font-size: clamp(1rem, 3.5vw, 1.2rem);
+  }
+  /* INDEX */
+  .logo {
+    background-size: auto 60%;
+    background-position: left center;
   }
 
-  h2 {
-    font-size: 1rem;
+  .index-solution {
+    width: 90%;
   }
 
-  h3 {
-    font-size: 1.6rem;
+  .index-solution h2 {
+    padding-right: 7rem;
   }
 
-  .logo span {
-    font-size: 2rem;
+  .btn-hollow-white {
+    float: none;
+    margin-left: 1rem;
+  }
+
+  section {
+    padding: 5rem 2rem;
+  }
+
+  .action {
+    background-size: 200%;
+  }
+
+  /* TJÄNSTER */
+
+  .tjanster-solution {
+    width: 80%;
+  }
+
+  .new-website-div,
+  .existing-website-div {
+    padding: 4rem 2rem;
+  }
+
+  /*  OM MIG */
+
+  .about-me p {
+    max-width: 45ch;
+    /* margin: 0 auto; */
   }
 }
 
-@media screen and (min-height: 600px) and (max-height: 750px) {
+@media screen and (min-width: 600px) {
+  /* INDEX */
+  .index-solution {
+    width: 80%;
+  }
+
+  .index-solution h2 {
+    padding-right: 6rem;
+  }
+
+  /* TJANSTER */
+
+  .existing-website-services {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  section {
+    padding: 6rem 5rem;
+  }
+
   h1 {
-    font-size: 2.5rem;
+    max-width: 80%;
+  }
+
+  /* INDEX */
+  .index-solution,
+  .tjanster-solution {
+    width: 70%;
+  }
+
+  .index-solution h2,
+  .tjanster-solution h2 {
+    padding-right: 6rem;
+  }
+
+  /* TJANSTER */
+
+  .existing-website-services {
+    padding: 2rem 2rem;
+  }
+
+  .new-website-header,
+  .existing-website-header {
+    height: 18rem;
+  }
+
+  .new-website-div,
+  .existing-website-div {
+    padding: 4rem 3rem;
+  }
+
+  .action {
+    padding: 4rem 2rem;
+    background-size: 170%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    background-size: auto 80%;
+    background-position: left center;
+  }
+
+  h1 {
+    font-size: 4rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+  /* INDEX */
+
+  #eclipse {
+    display: block;
   }
 
-  h3 {
-    font-size: 2rem;
+  .index-solution,
+  .tjanster-solution {
+    width: 70%;
   }
 
-  .logo span {
-    font-size: 2.3rem;
+  .index-solution h2,
+  .tjanster-solution h2 {
+    padding-right: 6rem;
   }
-} */
+
+  .skillset-flex {
+    font-size: 4rem;
+  }
+}

@@ -79,7 +79,9 @@ li {
   padding: 0.5rem;
 }
 
-a {
+a,
+a:visited {
+  color: inherit;
   text-decoration: none;
 }
 
@@ -187,7 +189,7 @@ button {
 .btn-hollow-white {
   background-color: transparent;
   padding: 0.8rem 1rem;
-  color: var(--light);
+  color: var(--light) !important;
   border-radius: 1rem;
   font: 500 1rem 'Quicksand', sans-serif;
   /* margin: 0.5rem 0rem; */
@@ -245,12 +247,15 @@ button {
 }
 
 .btn-paket {
+  position: relative;
   background: var(--contrast);
   padding: 1rem 2rem;
   color: black;
   border-radius: 1rem;
   font-size: 1rem;
-  margin: 1rem 0rem;
+  margin-bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .btn-tjanster {
@@ -268,6 +273,7 @@ button {
   color: black;
   border-radius: 1rem;
   font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .btn-call-me {
@@ -321,15 +327,18 @@ header:after {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: -1;
+  z-index: -6;
 }
 
-/* header > h1 {
-  padding: 0rem 1rem;
-  margin-top: 1rem;
-  font-weight: 300;
-  color: var(--light);
-} */
+#eclipse {
+  display: none;
+  position: absolute;
+  right: -7rem;
+  top: -2rem;
+  width: 130%;
+  opacity: 0.3;
+  z-index: -1;
+}
 
 .index-solution {
   position: relative;
@@ -428,7 +437,7 @@ header:after {
 
 .about-webhorisont {
   position: relative;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem; */
   background: var(--dark-blue);
 }
 
@@ -739,18 +748,30 @@ footer {
 /* NY HEMSIDA */
 
 .new-website {
-  position: relative;
-  background: url(/Images/startup.jpg);
-  background-size: cover;
-  z-index: 1;
   text-align: center;
+  padding: 0;
 }
 
-.new-website:after {
+.new-website-header {
+  position: relative;
+  height: 16rem;
+  background: url(/Images/startup.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  z-index: 1;
+  /* margin-bottom: 2rem; */
+  padding: 1rem;
+}
+
+.new-website-header h3 {
+  padding-top: 5rem;
+}
+
+.new-website-header:after {
   content: '';
   position: absolute;
   inset: 0 0 0 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -774,7 +795,9 @@ footer {
 .new-website h3 {
   color: var(--light);
 }
-.new-website h4 {
+
+.new-website-div h3 {
+  color: var(--dark);
   border-bottom: 1px solid black;
   padding-bottom: 1rem;
 }
@@ -783,17 +806,29 @@ footer {
 
 .existing-website {
   position: relative;
-  background: url(/Images/broken.jpg);
-  background-size: cover;
-  z-index: 1;
-  text-align: center;
+  padding: 0;
 }
 
-.existing-website:after {
+.existing-website-header {
+  position: relative;
+  height: 16rem;
+  background: url(/Images/broken.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  z-index: 1;
+  padding: 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.existing-website-header h3 {
+  padding-top: 4rem;
+}
+
+.existing-website-header:after {
   content: '';
   position: absolute;
   inset: 0 0 0 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   z-index: -1;
 }
 
@@ -815,6 +850,12 @@ footer {
   text-align: center;
 }
 
+.existing-website-div h3 {
+  color: var(--dark) !important;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+}
+
 .existing-website li {
   display: flex;
   gap: 1rem;
@@ -823,15 +864,11 @@ footer {
 .existing-website h3 {
   color: var(--light);
 }
-.existing-website h4 {
-  border-bottom: 1px solid black;
-  padding-bottom: 1rem;
-}
 
 .existing-website-services {
   background: var(--light);
   border-radius: 1rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   padding: 1rem 0rem;
 }
 
@@ -839,14 +876,21 @@ footer {
   text-align: left;
 }
 
-/* OM MIG */
-
-.about-me h3 {
-  text-align: left;
+.existing-website-services h3 {
+  color: var(--dark);
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
 }
 
-.about-me p {
-  padding-bottom: 2rem;
+/* OM MIG */
+
+.about-me h4 {
+  text-align: left;
+  padding-top: 3rem;
+}
+
+.about-me h4:first-child {
+  padding-top: 0;
 }
 
 /*  KONTAKT */
@@ -874,6 +918,10 @@ textarea {
 
 #submit {
   background: var(--contrast);
+  border: 0;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.377);
   padding: 1rem 2rem;
   color: black;
   border-radius: 1rem;
@@ -914,6 +962,12 @@ textarea {
 .header-bundle-div i {
   font-size: 2rem;
   color: var(--contrast);
+  padding-top: 1rem;
+}
+
+.header-bundle-div span {
+  font-size: 1rem;
+  border-bottom: 2px solid var(--contrast);
 }
 
 .bundles {
@@ -945,8 +999,13 @@ textarea {
   gap: 1rem;
 }
 
+.bundles-div span {
+  font-size: 0.7rem;
+}
+
 .bundles-div-header {
   margin-top: 2rem;
+  font-weight: 400;
 }
 
 .bas i {
@@ -976,6 +1035,7 @@ textarea {
 }
 
 #bill-terms {
+  margin-top: 1rem;
   text-align: center;
   color: var(--dark);
 }
@@ -994,6 +1054,27 @@ textarea {
   padding: 1rem;
   background: var(--light);
   box-shadow: 3px 3px 5px black;
+}
+
+.terms i {
+  color: var(--dark);
+  float: right;
+}
+
+.service-prices {
+  background: var(--dark-blue);
+}
+
+.service-prices-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service-prices-div {
+  background: var(--light);
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .service-prices-div li {
