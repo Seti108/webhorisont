@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 500px) {
   html {
-    font-size: clamp(1rem, 3.5vw, 1.2rem);
+    font-size: clamp(1rem, 3vw, 1.1rem);
   }
   /* INDEX */
   .logo {
@@ -85,13 +85,13 @@
 
   .index-solution h2,
   .tjanster-solution h2 {
-    padding-right: 6rem;
+    padding-right: 7rem;
   }
 
   /* TJANSTER */
 
   .existing-website-services {
-    padding: 2rem 2rem;
+    padding: 2rem 3rem;
   }
 
   .new-website-header,
@@ -111,9 +111,17 @@
 }
 
 @media screen and (min-width: 768px) {
+  html {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+  }
+
   .logo {
     background-size: auto 80%;
     background-position: left center;
+  }
+
+  .mobile-menu li {
+    width: 50%;
   }
 
   h1 {
@@ -141,5 +149,111 @@
 
   .skillset-flex {
     font-size: 4rem;
+  }
+
+  /*  Tjänster */
+
+  .new-website-div i {
+    width: 2rem;
+    height: 4rem;
+  }
+
+  .existing-website-div i {
+    width: 2rem;
+    height: 4rem;
+    text-align: center;
+  }
+
+  .new-website ul,
+  .existing-website ul {
+    padding: 2rem 3rem;
+  }
+
+  /* PRISER */
+
+  .bundles-flex,
+  .service-prices-flex {
+    gap: 4rem;
+  }
+
+  /* OM MIG */
+
+  .about-me * {
+    width: fit-content;
+  }
+
+  .about-me-div {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* MENU */
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: inline-block;
+    width: 40%;
+    background-size: auto 60%;
+    background-position: left center;
+  }
+
+  .mobile-bars {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+    color: var(--dark);
+  }
+
+  .desktop-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 0;
+    align-items: center;
+  }
+
+  .desktop-menu li:hover {
+    /* padding: 0.5rem; */
+    background: #db6e34d0;
+    border-radius: 1rem;
+  }
+
+  /*  BUTTONS */
+
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.377);
+  }
+
+  /* INDEX */
+  .index-solution,
+  .tjanster-solution {
+    width: 60%;
+  }
+
+  .index-solution h2,
+  .tjanster-solution h2 {
+    padding-right: 6rem;
+  }
+
+  .about-webhorisont ul {
+    width: 70%;
+  }
+
+  .projects-flex {
+    flex-direction: row;
+  }
+
+  #eclipse {
+    top: -8rem;
   }
 }
