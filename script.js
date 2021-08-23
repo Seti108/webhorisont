@@ -46,7 +46,7 @@ newWebsiteBtn?.addEventListener('click', function (e) {
 
   window.scrollTo(
     sectionCoords.left + window.pageXOffset,
-    sectionCoords.top + window.pageYOffset
+    sectionCoords.top + window.pageYOffset - 64
   );
 });
 
@@ -55,7 +55,7 @@ existingWebsiteBtn?.addEventListener('click', function (e) {
 
   window.scrollTo(
     sectionCoords.left + window.pageXOffset,
-    sectionCoords.top + window.pageYOffset
+    sectionCoords.top + window.pageYOffset - 64
   );
 });
 

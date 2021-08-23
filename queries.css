@@ -222,16 +222,8 @@
   }
 
   .desktop-menu li:hover {
-    /* padding: 0.5rem; */
     background: #db6e34d0;
     border-radius: 1rem;
-  }
-
-  /*  BUTTONS */
-
-  button:hover {
-    transform: scale(1.1);
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.377);
   }
 
   /* INDEX */
@@ -255,5 +247,131 @@
 
   #eclipse {
     top: -8rem;
+  }
+}
+
+/* IPAD LANSCAPE */
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: clamp(1rem, 3vw, 1.1rem);
+  }
+  /* INDEX */
+
+  .index-solution,
+  .tjanster-solution {
+    width: 50%;
+  }
+
+  .index-solution h2,
+  .tjanster-solution h2 {
+    padding-right: 6rem;
+  }
+
+  .skillset-flex {
+    margin-top: 0;
+  }
+
+  .action {
+    background-size: 100%;
+  }
+
+  /* TJÄNSTER */
+
+  .tjanster-choices-flex {
+    justify-content: space-around;
+  }
+
+  .new-website-div,
+  .existing-website-div,
+  .existing-website-services {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* OM MIG */
+
+  .index-solution-more-text {
+    width: 60%;
+  }
+
+  .header-bundle-flex {
+    margin-top: 1rem;
+  }
+
+  /*  PRISER */
+
+  .new-website-header,
+  .existing-website-header {
+    height: 24rem;
+  }
+
+  .bundles-flex {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* IPAD PRO */
+
+@media screen and (min-width: 1024px) and (min-height: 1000px) {
+  html {
+    font-size: clamp(1rem, 3vw, 1.4rem);
+  }
+  /* INDEX */
+  .index-solution,
+  .tjanster-solution {
+    width: 60%;
+  }
+
+  #eclipse {
+    top: 0;
+  }
+
+  /* PRISER */
+
+  .header-bundle-flex,
+  .tjanster-choices-flex,
+  .skillset-flex {
+    margin-top: 4rem;
+  }
+
+  .bundles-flex {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /* INDEX */
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .index-solution,
+  .tjanster-solution {
+    width: 40%;
+  }
+
+  .skillset-flex {
+    justify-content: left;
+  }
+
+  .skills {
+    width: 10%;
+  }
+
+  .about-webhorisont ul {
+    width: 50%;
+  }
+
+  .action {
+    background-position: 0% 10%;
+  }
+
+  /* OM MIG */
+
+  .index-solution-more-text {
+    width: 45%;
   }
 }
