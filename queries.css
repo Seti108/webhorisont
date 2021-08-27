@@ -29,7 +29,7 @@
   }
 
   .action {
-    background-size: 200%;
+    /* background-size: 200%; */
   }
 
   /* TJÄNSTER */
@@ -105,8 +105,8 @@
   }
 
   .action {
-    padding: 4rem 2rem;
-    background-size: 170%;
+    /* padding: 4rem 2rem;
+    background-size: 170%; */
   }
 }
 
@@ -272,7 +272,7 @@
   }
 
   .action {
-    background-size: 100%;
+    background-size: 200%;
   }
 
   /* TJÄNSTER */
@@ -286,6 +286,11 @@
   .existing-website-services {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .existing-website-header h3,
+  .new-website-header h3 {
+    margin-top: 7%;
   }
 
   /* OM MIG */
@@ -323,6 +328,10 @@
     width: 60%;
   }
 
+  /* .index-solution h2 {
+    padding-right: 7rem;
+  } */
+
   #eclipse {
     top: 0;
   }
@@ -335,9 +344,28 @@
     margin-top: 4rem;
   }
 
-  .bundles-flex {
+  .bundles-flex,
+  .service-prices-flex {
     width: 70%;
     margin: 0 auto;
+  }
+}
+
+/* IPAD PRO LANDSCAPE */
+
+@media screen and (min-width: 1366px) and (min-height: 1000px) {
+  html {
+    font-size: clamp(1rem, 3vw, 1.3rem);
+  }
+
+  .header-bundle-flex,
+  .tjanster-choices-flex,
+  .skillset-flex {
+    margin-top: 1rem;
+  }
+
+  .h1-double-height {
+    margin-bottom: 2rem !important;
   }
 }
 
@@ -345,12 +373,25 @@
   /* INDEX */
 
   button:hover {
-    transform: scale(1.1);
+    transform: scale(0.99);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
   }
 
   .index-solution,
   .tjanster-solution {
     width: 40%;
+  }
+
+  .header-illustration {
+    display: block;
+    position: absolute;
+    top: 12rem;
+    right: 8rem;
+  }
+
+  .header-illustration img {
+    width: 450px;
+    height: auto;
   }
 
   .skillset-flex {
@@ -366,12 +407,130 @@
   }
 
   .action {
-    background-position: 0% 10%;
+    /* background-position: 0% 10%; */
+    background-size: 100%;
+  }
+
+  /* TJÄNSTER */
+
+  .tjanster-choices-flex {
+    justify-content: space-evenly;
+  }
+
+  .new-website-div,
+  .existing-website-div,
+  .existing-website-services {
+    width: 60%;
+    margin: 0 auto;
   }
 
   /* OM MIG */
 
   .index-solution-more-text {
     width: 45%;
+  }
+
+  /* PRISER */
+
+  .h1-double-height {
+    margin-bottom: 6rem;
+  }
+
+  .header-bundle-flex {
+    justify-content: space-between;
+  }
+
+  .bundles {
+    padding: 6rem 1rem;
+  }
+
+  .bundles-header h3 {
+    margin-bottom: 2rem;
+  }
+
+  .bundles-flex {
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+    justify-content: space-evenly;
+  }
+
+  .bundles-div {
+    height: max-content;
+    width: 30%;
+  }
+
+  .bundles-div p {
+    font-size: 80%;
+  }
+
+  .bundles-div h3 {
+    font-size: 150%;
+  }
+
+  .service-prices-flex {
+    flex-direction: row;
+    width: 100%;
+    gap: 0;
+    justify-content: space-evenly;
+  }
+
+  .service-prices {
+    padding: 6rem 1rem;
+  }
+
+  .service-prices-div {
+    height: max-content;
+    width: 30%;
+  }
+
+  .service-prices-div p {
+    font-size: 80%;
+  }
+
+  .service-prices-div h3 {
+    font-size: 150%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: clamp(1rem, 3vw, 1.4rem);
+  }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  html {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+  }
+
+  /*  INDEX */
+
+  .skillset-flex,
+  .header-bundle-flex {
+    margin-top: 2rem;
+  }
+
+  .header-illustration img {
+    width: 650px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  html {
+    font-size: clamp(1rem, 3vw, 2rem);
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  html {
+    font-size: clamp(1rem, 3vw, 2.3rem);
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  html {
+    font-size: clamp(1rem, 3vw, 2.6rem);
   }
 }

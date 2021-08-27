@@ -1,5 +1,5 @@
 'use strict';
-
+// console.log(window.innerWidth, window.innerHeight);
 // SELECTORS
 
 // MENU SELCTORS

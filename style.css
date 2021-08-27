@@ -187,6 +187,10 @@ button {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.377);
 }
 
+.center-btn {
+  text-align: center;
+}
+
 .btn-hollow-white {
   background-color: transparent;
   padding: 0.8rem 1rem;
@@ -249,14 +253,14 @@ button {
 
 .btn-paket {
   position: relative;
+  width: max-content;
   background: var(--contrast);
   padding: 1rem 2rem;
   color: black;
   border-radius: 1rem;
   font-size: 1rem;
-  margin-bottom: 1rem;
-  left: 50%;
-  transform: translate(-50%);
+  /* left: 50%;
+  transform: translate(-50%); */
 }
 
 .btn-tjanster {
@@ -341,8 +345,13 @@ header:after {
   z-index: -1;
 }
 
+.header-illustration {
+  display: none;
+}
+
 .index-solution {
   position: relative;
+  /* min-height: 320px; */
   margin-bottom: 2rem;
   margin-top: 1rem;
   margin-left: 0;
@@ -660,8 +669,12 @@ header:after {
   position: relative;
   width: 100%;
   height: fit-content;
-  background: url(/Images/clouds.jpg);
+  /* background: url(/Images/clouds.jpg);
+  background-size: 300%; */
+  background: url(/Images/hero-horizon2.jpg);
   background-size: 300%;
+  background-position: 0% 100%;
+  background-attachment: fixed;
   z-index: 96;
 }
 
@@ -673,7 +686,7 @@ header:after {
   left: 0;
   right: 0;
   /* inset: 0px 0px 0px 0px; */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
 
