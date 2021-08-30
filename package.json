@@ -1,11 +1,11 @@
 {
-  "name": "WebHorisont",
+  "name": "webhorisont",
   "version": "1.0.0",
-  "description": "My homepage",
+  "description": "WebHorison Homepage",
   "main": "index.html",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "SETI108",
   "license": "ISC",
