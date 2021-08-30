@@ -497,6 +497,15 @@
   html {
     font-size: clamp(1rem, 3vw, 1.4rem);
   }
+
+  .index-solution,
+  .tjanster-solution {
+    background-size: 9rem auto;
+  }
+
+  .index-solution-more-text {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1920px) and (min-height: 1080px) {
@@ -508,7 +517,7 @@
 
   .skillset-flex,
   .header-bundle-flex {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .header-illustration img {

@@ -116,9 +116,9 @@ nav {
   width: 70%;
   height: 100%;
   margin-left: 1rem;
-  /* font-family: 'Quicksand', sans-serif; */
+  font-family: 'Avenir Next', sans-serif;
   /* letter-spacing: 0.2rem; */
-  background-image: url(/Images/logo5-crop.svg);
+  background-image: url(/Images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
