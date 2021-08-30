@@ -4,8 +4,18 @@
   "description": "My homepage",
   "main": "index.html",
   "scripts": {
-    "test": "start"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "SETI108",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seti108/webhorisont.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Seti108/webhorisont/issues"
+  },
+  "homepage": "https://github.com/Seti108/webhorisont#readme"
 }
