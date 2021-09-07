@@ -48,9 +48,9 @@ const observerCallback = function (entries) {
   // Lazy load gallery desktop
   if (!entry.isIntersecting && window.location.pathname === '/index.html') {
     // References
-    amicusSvg.src = '/amicus-mobile-min.fce5617a.png';
-    crSvg.src = '/cr-bygg-mobile-min.b773bf3f.png';
-    danakoshaSvg.src = '/danakosha-mobile-min.a9d2dfc6.png';
+    amicusSvg.src = '/amicus-mobile-min.png';
+    crSvg.src = '/cr-bygg-mobile-min.png';
+    danakoshaSvg.src = '/danakosha-mobile-min.png';
   }
 
   if (!entry.isIntersecting && window.location.pathname === '/tjanster.html') {
@@ -61,9 +61,9 @@ const observerCallback = function (entries) {
 
   if (!entry.isIntersecting && window.location.pathname === '/om-mig.html') {
     // References
-    amicusSvg.src = '/amicus-mobile-min.fce5617a.png';
-    crSvg.src = '/cr-bygg-mobile-min.b773bf3f.png';
-    danakoshaSvg.src = '/danakosha-mobile-min.a9d2dfc6.png';
+    amicusSvg.src = '/amicus-mobile-min.png';
+    crSvg.src = '/cr-bygg-mobile-min.png';
+    danakoshaSvg.src = '/danakosha-mobile-min.png';
   }
 };
 
