@@ -1,8 +1,9 @@
 'use strict';
 // PARCAL IMAGE IMPORT
 
-import images from './Images/*.png';
-
+import amicus from './Images/amicus-mobile-min.png';
+import crbygg from './Images/cr-bygg-mobile-min.png';
+import danakosha from './Images/danakosha-mobile-min.png';
 // MENU SELCTORS
 
 const mobileMenuIcon = document.querySelector('.mobile-bars');
@@ -48,9 +49,9 @@ const observerCallback = function (entries) {
   // Lazy load gallery desktop
   if (!entry.isIntersecting && window.location.pathname === '/index.html') {
     // References
-    amicusSvg.src = '/amicus-mobile-min.png';
-    crSvg.src = '/cr-bygg-mobile-min.png';
-    danakoshaSvg.src = '/danakosha-mobile-min.png';
+    amicusSvg.src = amicus;
+    crSvg.src = crbygg;
+    danakoshaSvg.src = danakosha;
   }
 
   if (!entry.isIntersecting && window.location.pathname === '/tjanster.html') {
@@ -61,9 +62,9 @@ const observerCallback = function (entries) {
 
   if (!entry.isIntersecting && window.location.pathname === '/om-mig.html') {
     // References
-    amicusSvg.src = '/amicus-mobile-min.png';
-    crSvg.src = '/cr-bygg-mobile-min.png';
-    danakoshaSvg.src = '/danakosha-mobile-min.png';
+    amicusSvg.src = amicus;
+    crSvg.src = crbygg;
+    danakoshaSvg.src = danakosha;
   }
 };
 
