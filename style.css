@@ -118,7 +118,7 @@ nav {
   margin-left: 1rem;
   font-family: 'Avenir Next', sans-serif;
   /* letter-spacing: 0.2rem; */
-  background-image: url(/Images/logo.png);
+  background-image: url(/Images/logo-min.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -324,7 +324,7 @@ header {
   background-attachment: fixed;
   z-index: 99; */
   /* HORIZON */
-  background-image: url(/Images/hero-horizon2.jpg);
+  background-image: url(/Images/hero-horizon2-min.jpg);
   background-size: auto 120%;
   background-repeat: no-repeat;
   background-position: 0% 100%;
@@ -369,7 +369,7 @@ header:after {
   margin-left: 0;
   margin-right: 1rem;
   background: var(--light);
-  background-image: url(/Images/imageonline-co-whitebackgroundremoved.png);
+  background-image: url(/Images/imageonline-co-whitebackgroundremoved-min.png);
   /* border-radius: 1rem; */
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -461,7 +461,7 @@ header:after {
   position: relative;
   /* padding: 2rem 1rem; */
   /* background: var(--dark-blue); */
-  background-image: url(/Images/hero-horizon2.jpg);
+  background-image: url(/Images/hero-horizon2-min.jpg);
   background-size: auto 120%;
   background-repeat: no-repeat;
   background-position: 0% 100%;
@@ -681,7 +681,7 @@ header:after {
   height: fit-content;
   /* background: url(/Images/clouds.jpg);
   background-size: 300%; */
-  background: url(/Images/hero-horizon2.jpg);
+  background: url(/Images/hero-horizon2-min.jpg);
   background-size: 300%;
   background-position: 0% 100%;
   background-attachment: fixed;

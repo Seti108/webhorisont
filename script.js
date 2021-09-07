@@ -1,6 +1,7 @@
 'use strict';
-// console.log(window.innerWidth, window.innerHeight);
-// SELECTORS
+// PARCAL IMAGE IMPORT
+
+import images from './Images/*.png';
 
 // MENU SELCTORS
 
@@ -29,6 +30,36 @@ closeMobileMenu.addEventListener('click', function () {
   mobileMenu.style.display = 'none';
   menuToggle = false;
 });
+
+// Index
+
+// Selectors
+
+const header = document.querySelector('header');
+const amicusSvg = document.querySelector('.amicus-svg');
+const crSvg = document.querySelector('.cr-bygg-svg');
+const danakoshaSvg = document.querySelector('.danakosha-svg');
+
+// Lazy load reference images
+
+const observerCallback = function (entries) {
+  const [entry] = entries;
+  // Lazy load gallery desktop
+  if (!entry.isIntersecting) {
+    amicusSvg.src = '/amicus-mobile-min.fce5617a.png';
+    crSvg.src = '/cr-bygg-mobile-min.b773bf3f.png';
+    danakoshaSvg.src = '/danakosha-mobile-min.a9d2dfc6.png';
+  }
+};
+
+const observerOptions = {
+  root: null,
+  threshold: 0.5,
+};
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+observer.observe(header);
 
 // Tjänster
 
