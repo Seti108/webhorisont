@@ -11,7 +11,6 @@ const closeMobileMenu = document.querySelector('#icon-close-menu');
 
 const navElement = document.querySelector('nav');
 const navBar = navElement.style.height;
-console.log(navBar);
 // MOBILE MENU
 
 let menuToggle = false;
@@ -31,21 +30,37 @@ closeMobileMenu.addEventListener('click', function () {
   menuToggle = false;
 });
 
-// Index
-
-// Selectors
+// Lazy Load Selectors
 
 const header = document.querySelector('header');
 const amicusSvg = document.querySelector('.amicus-svg');
 const crSvg = document.querySelector('.cr-bygg-svg');
 const danakoshaSvg = document.querySelector('.danakosha-svg');
+const newWebsiteHeader = document.querySelector('.new-website-header');
+const existingWebsiteHeader = document.querySelector(
+  '.existing-website-header'
+);
 
 // Lazy load reference images
 
 const observerCallback = function (entries) {
   const [entry] = entries;
   // Lazy load gallery desktop
-  if (!entry.isIntersecting) {
+  if (!entry.isIntersecting && window.location.pathname === '/index.html') {
+    // References
+    amicusSvg.src = '/amicus-mobile-min.fce5617a.png';
+    crSvg.src = '/cr-bygg-mobile-min.b773bf3f.png';
+    danakoshaSvg.src = '/danakosha-mobile-min.a9d2dfc6.png';
+  }
+
+  if (!entry.isIntersecting && window.location.pathname === '/tjanster.html') {
+    // Tjanster images
+    newWebsiteHeader.classList.remove('lazy');
+    existingWebsiteHeader.classList.remove('lazy');
+  }
+
+  if (!entry.isIntersecting && window.location.pathname === '/om-mig.html') {
+    // References
     amicusSvg.src = '/amicus-mobile-min.fce5617a.png';
     crSvg.src = '/cr-bygg-mobile-min.b773bf3f.png';
     danakoshaSvg.src = '/danakosha-mobile-min.a9d2dfc6.png';
@@ -54,7 +69,7 @@ const observerCallback = function (entries) {
 
 const observerOptions = {
   root: null,
-  threshold: 0.5,
+  threshold: 0.9,
 };
 
 const observer = new IntersectionObserver(observerCallback, observerOptions);

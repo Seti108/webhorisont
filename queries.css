@@ -40,6 +40,13 @@
     padding: 4rem 2rem;
   }
 
+  .new-website-header {
+    background-image: url(/Images/startup-min.jpg);
+  }
+  .existing-website-header {
+    background-image: url(/Images/broken-min.jpg);
+  }
+
   /*  OM MIG */
 
   .about-me p {
