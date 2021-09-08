@@ -312,6 +312,10 @@ button {
   color: var(--light);
 }
 
+.fa-question-circle {
+  color: var(--contrast);
+}
+
 /* INDEX */
 
 header {
@@ -374,7 +378,7 @@ header:after {
   margin-left: 0;
   margin-right: 1rem;
   background: var(--light);
-  background-image: url(/Images/imageonline-co-whitebackgroundremoved-min.png);
+  background-image: url(/Images/imageonline-co-whitebackgroundremoved-mobile-min.png);
   /* border-radius: 1rem; */
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -824,7 +828,7 @@ footer {
 .new-website-div {
   background: var(--light);
   border-radius: 1rem;
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
   text-align: left;
 }
 
@@ -885,7 +889,7 @@ footer {
 .existing-website-div {
   background: var(--light);
   border-radius: 1rem;
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
   text-align: left;
 }
 
@@ -1013,7 +1017,7 @@ textarea {
 
 .header-bundle-div span {
   font-size: 1rem;
-  border-bottom: 2px solid var(--contrast);
+  border-bottom: 1px solid var(--light);
 }
 
 .bundles {
@@ -1078,6 +1082,12 @@ textarea {
 
 .bundle-price span {
   font-size: 0.7rem;
+}
+
+.bundle-price a {
+  font-size: 0.8rem;
+  color: var(--purple);
+  text-decoration: underline;
 }
 
 #bill-terms {

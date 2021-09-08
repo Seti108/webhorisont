@@ -202,3 +202,11 @@ plusBtn?.addEventListener('click', function () {
     sectionCoords.top - 64 + window.pageYOffset
   );
 });
+
+// Global event handlers
+
+// const chatLink = document.querySelector('.chatt');
+
+// chatLink?.addEventListener('click', function () {
+//   window.open('https://tawk.to/chat/61387507649e0a0a5cd52bac/1ff28i9ag');
+// });
